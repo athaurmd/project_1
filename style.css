@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Orbitron,sans-serif;
+    height: 100%;
+}
+
+.container{
+    margin:30px 80px 0 80px;
+}
+
+nav.navbar-container{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-container img{
+    width: 80%;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+
+  .list-item{
+    font-size: 25px;
+    font-weight: 300;
+    padding: 0 30px;
+    cursor: pointer;
+  }
+
+  :hover.list-item{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #0d0d0d;
+  }
+
+  .button-group{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .search-icon{
+    margin-right: 20px;
+  }
+  
+  .search-icon svg{
+    width: 20px;
+  }
+
+  .nav-button{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0 30px;
+    font-size: 20px;
+  }
+
+  .hero-container{
+    display: flex;
+    flex-direction: row;
+  }
+
+.hero-container > span{
+    position: absolute; 
+}
+
+.hero-container > div > img {
+    position: absolute;
+    height: 550px;   
+    margin-top: 80px;
+}
+
+.square img {
+    position: relative;
+    margin-top: 320px;
+    margin-left: 150px;
+    height: auto;
+    width: 65%; 
+}
+
+.globe {
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+.globe img{
+    width: 80%;
+}
+
+.star {
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 5%;
+}  
+
+.star img{
+    width: 80%;
+}
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 100px ;
+    text-align: center;
+}
+
+.hero-heading{
+    align-items: center;
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 50%;
+} 
+
+.hero-description{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50%;
+    text-align: center;
+    font-family: sans-serif;
+    width: 50%;
+}
+
+.hero-container-right p{
+    color: #758283;
+}
+
+.button-email{
+    font-family: orbitron,sans-serif;
+    padding: 0 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-top: 60px;
+    margin-left: 45%;
+    font-size: 20px;
+}
+
+.button-join{
+    font-family: orbitron;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size:20px;
+}
+
+.contact-heading{
+    font-family: 'Poppins',sans-serif;
+    margin-left: 45%;
+    margin-top :12%;
+    margin-bottom: 0%;
+    color: #758283;
+    font-size: 20px;
+}
+
+
+.icons{
+    margin-left: 45%;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
