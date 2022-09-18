@@ -1,7 +1,7 @@
 # Street Style Landing page
  This is my first project on html and css
 
- [Netlify](https://62ec6842488b4a616ba06783--landing-websites.netlify.app/)
+ [Netlify](https://street-style-web-page.netlify.app/)
 
  ## What I learnt in this project?
  ## css prperties
